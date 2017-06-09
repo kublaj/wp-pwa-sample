@@ -1,0 +1,12 @@
+{
+    "export": {
+        "categories": {
+            "find": "//pwathemes.com/demo-api/wp-json/wp/v2/categories",
+            "findOne": "//pwathemes.com/demo-api/wp-json/wp/v2/categories"
+        },
+        "posts": {
+            "find": "//pwathemes.com/demo-api/wp-json/wp/v2/posts",
+            "findOne": "//pwathemes.com/demo-api/wp-json/wp/v2/posts"
+        }
+    }
+}

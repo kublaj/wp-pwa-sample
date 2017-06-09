@@ -1,0 +1,13 @@
+<ion-view view-title="Posts" cache-view="false">
+    <ion-content>
+      <ion-list>
+        <ion-item
+          ui-sref="post({ id: post.id })"
+          ng-repeat="post in postsVm.posts">
+
+          <p data-ng-bind-html="post.title | TrustHtmlFilter"></p>
+          <a data-ng-href="post({ id: post.id })">Read more</a>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+</ion-view>

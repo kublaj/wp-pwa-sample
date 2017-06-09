@@ -1,0 +1,10 @@
+.categories-ctx {
+  .category-item-custom {
+    background-color: $item-bg-color;
+    border: 1px solid lighten(slategray, 5%);
+    padding: 8px;
+  }
+  .category-item__data-custom {
+    color: $item-text-color;
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Progressive Web App Sample</title>
+
+    <!-- build:css -->
+    <!-- compiled css output -->
+    <link rel="stylesheet" href="assets/sass/ionic.app.css">
+    <link rel="stylesheet" href="assets/sass/main.css">
+    <!-- endbuild -->
+    <link rel="stylesheet" href="assets/sass/customizable.css">
+
+
+    <script type="text/javascript">
+      window.__APPTICLES_BOOTSTRAP_DATA__ = {
+        CONFIG_PATH: '/app/config.json'
+      };
+    </script>
+
+
+    <!-- build:js -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- core/config -->
+    <script src="app/core/config/config.module.js" charset="utf-8"></script>
+    <script src="app/core/config/config.provider.js" charset="utf-8"></script>
+
+    <!-- core/appticles-api -->
+    <script src="app/core/appticles-api/api.module.js" charset="utf-8"></script>
+    <script src="app/core/appticles-api/api.service.js" charset="utf-8"></script>
+
+    <!-- core/appticles-validation -->
+    <script src="app/core/appticles-validation/validation.module.js" charset="utf-8"></script>
+    <script src="app/core/appticles-validation/validation.service.js" charset="utf-8"></script>
+
+    <!-- core/filters -->
+    <script src="app/core/trust-html.filter.js" charset="utf-8"></script>
+
+    <!-- categories -->
+    <script src="app/categories/categories.module.js" charset="utf-8"></script>
+    <script src="app/categories/categories.controller.js" charset="utf-8"></script>
+    <script src="app/categories/posts.controller.js" charset="utf-8"></script>
+    <script src="app/categories/post.controller.js" charset="utf-8"></script>
+
+    <!-- app -->
+    <script src="app/app.module.js"></script>
+    <script src="app/main.js" charset="utf-8"></script>
+
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <ion-nav-bar class="bar bar-header bar-assertive"></ion-nav-bar>
+    <ion-nav-view></ion-nav-view>
+
+  </body>
+</html>

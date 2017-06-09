@@ -1,0 +1,16 @@
+<ion-view view-title="Progressive Web App Sample" cache-view="false" class="categories-ctx">
+    <ion-content>
+
+      <ion-list>
+        <div
+          class="category-item category-item-custom"
+          ui-sref="posts({ id: category.id })"
+          ng-repeat="category in categoriesVm.categories">
+          <p
+          class="category-item__data category-item__data-custom"
+          data-ng-bind-html="category.name | TrustHtmlFilter"></p>
+        </div>
+      </ion-list>
+
+    </ion-content>
+</ion-view>
